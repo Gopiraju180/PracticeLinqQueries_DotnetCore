@@ -1,0 +1,6 @@
+@PracticeLinqQueries_DotnetCore_HostAddress = http://localhost:5020
+
+GET {{PracticeLinqQueries_DotnetCore_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
