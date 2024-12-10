@@ -9,11 +9,11 @@ namespace LinqQueriesPractiseInDotnetCore.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class NormalLinqQueries : ControllerBase
+    public class NormalLinqQueriesController : ControllerBase
     {
         private readonly NorthwindDb1Context _northwind_DBContext;
         private readonly NorthwindContext _northwindContext;
-        public NormalLinqQueries(NorthwindDb1Context northwind_DBContext, NorthwindContext northwindContext)
+        public NormalLinqQueriesController(NorthwindDb1Context northwind_DBContext, NorthwindContext northwindContext)
         {
             _northwind_DBContext = northwind_DBContext;
             _northwindContext = northwindContext;
